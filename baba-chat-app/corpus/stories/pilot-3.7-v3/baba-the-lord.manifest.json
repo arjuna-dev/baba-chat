@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/baba-the-lord.md",
+    "slug": "baba-the-lord",
+    "source_page_count": 148,
+    "source_pdf": "Baba The Lord.pdf",
+    "source_sha256": "da4059fc3aa8402644ebc836761a570f3f3c23a3cdc84ce5e4e84337cadf0036",
+    "title": "Baba The Lord"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T13:11:10Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 50,
+      "quality": {
+        "character_count": 3961,
+        "control_character_count": 0,
+        "line_count": 18,
+        "repeated_line_ratio": 0.1111,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 723
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/.ocr/baba-the-lord/pages/page-0050.json",
+      "rendered_image_bytes": 585235,
+      "rendered_image_sha256": "b9420878e87f8a990d4786e9bd309c8450fdc8e66a1b65bdf3f7c5f9105f51f0",
+      "response_id": "aAiDapyxC_rAtfAP3Ky7kAE",
+      "retry_count": 0,
+      "started_at": "2026-08-17T13:10:47Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 901,
+        "prompt_token_count": 2857,
+        "total_token_count": 3758
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    50
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v3",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v3",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T13:10:47Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T13:11:10Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 3961,
+    "total_rendered_image_bytes": 585235,
+    "usage": {
+      "candidates_token_count": 901,
+      "prompt_token_count": 2857,
+      "total_token_count": 3758
+    }
+  }
+}

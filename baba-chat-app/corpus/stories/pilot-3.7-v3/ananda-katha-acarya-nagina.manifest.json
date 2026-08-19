@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/ananda-katha-acarya-nagina.md",
+    "slug": "ananda-katha-acarya-nagina",
+    "source_page_count": 213,
+    "source_pdf": "Ananda Katha - Acarya Nagina.pdf",
+    "source_sha256": "045e58239398e6750fca0ea226563565aec0046b668a724b2779ac656a3462f1",
+    "title": "Ananda Katha - Acarya Nagina"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T13:09:48Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 35,
+      "quality": {
+        "character_count": 3761,
+        "control_character_count": 0,
+        "line_count": 8,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 696
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/.ocr/ananda-katha-acarya-nagina/pages/page-0035.json",
+      "rendered_image_bytes": 606454,
+      "rendered_image_sha256": "394308b0afb95101c6929c74fde2937602f5750b0ce283853aad2a01b641166c",
+      "response_id": "FgiDaqjNHMu4mPUP2ovK2Q4",
+      "retry_count": 0,
+      "started_at": "2026-08-17T13:09:40Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 802,
+        "prompt_token_count": 2878,
+        "total_token_count": 3680
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    35
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v3",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v3",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T13:09:40Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T13:09:48Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 3761,
+    "total_rendered_image_bytes": 606454,
+    "usage": {
+      "candidates_token_count": 802,
+      "prompt_token_count": 2878,
+      "total_token_count": 3680
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "connections": [
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Devotees_Object_of_Ideation.html#p0014#claim-98326bdfa635d45d",
+        "discourses:Discourses/Our_Concept_of_Taraka_Brahma.html#p0001#claim-c624c55e3a37088a",
+        "stories:Stories/full-3.7/sambhavami.md#p0132#claim-1556d1d0cedceb44"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-001",
+      "explanation": "All three claims express the identical philosophical concept of Tāraka Brahma functioning as the special tangential manifestation or bridge (setu) between qualified (Saguna) and non-qualified (Nirguna) Consciousness that bestows spiritual liberation on unit beings.",
+      "summary": "Tāraka Brahma is defined across discourses and story narratives as the tangential liberating link bridging Saguna and Nirguna Brahma.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Few_of_Tantras_Special_Characteristics.html#p0010#claim-fcd82f207a4d1263",
+        "discourses:Discourses/Devotion_and_the_Realm_of_Intellectuality.html#p0037#claim-456b96791b728b30",
+        "discourses:Discourses/No_One_Is_Negligible.html#p0002#claim-154b29cb79498fd2",
+        "discourses:Discourses/Unit_Spirit_and_Cosmic_Spirit.html#p0047#claim-9368011daef1c3f0"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-002",
+      "explanation": "These four distinct discourses state the exact same ontological principle: Supreme Consciousness cannot create a separate second Parama Puruṣa (as merged entities become one with Him) and cannot hate anyone (as all entities reside within His own internal mind).",
+      "summary": "Parama Puruṣa is inherently incapable of hating any entity or creating a second identical duplicate of Himself.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/An_Exemplary_Life.html#p0013#claim-7078995c02111c5c",
+        "discourses:Discourses/SelfRealization_Is_the_Real_Knowledge.html#p0011#claim-fde7824a1aabac7c",
+        "acharya_philosophy:Acharya-Philosophy/when-the-time-comes.md#p0044#claim-146da85232faa777"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-003",
+      "explanation": "The discourse claims establish the definition of Dhruvasmrti and Dharmameghānanda through unbroken remembrance, while the Acharya philosophy text shows the operational application: firm practice of Guru Mantra (second lesson) surrenders all actions to the Supreme so they generate no binding reactions.",
+      "summary": "Surrendering all actions to the Supreme via constant remembrance (Dhruvasmrti / Guru Mantra) neutralizes reactive momenta and produces spiritual bliss.",
+      "type": "supports"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Are_Ghosts_Hallucinations.html#p0010#claim-00b38ab18449e9e5",
+        "discourses:Discourses/Disembodied_Souls_and_Microvita_Section_B.html#p0001#claim-f82ecd3d60746bdd",
+        "stories:Stories/full-3.7/advent-of-a-mystery-compressed.md#p0397#claim-4c91cb8775f4b98d",
+        "stories:Stories/full-3.7/walking-with-the-master.md#p0066#claim-6057205ce14724bd"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-004",
+      "explanation": "Across both formal discourses and biographical narrative records, devayonis are defined as non-quinquelemental entities possessing only luminous, aerial, and ethereal factors, divided into seven classes (yakṣa, siddha, gandharva, kinnara, vidyādhara, prakṛtiliina, and videhaliina) according to their subtle psychological desires at death.",
+      "summary": "Devayonis (luminous bodies) consist strictly of three subtle factors and are classified into seven distinct psychological categories.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Are_Ghosts_Hallucinations.html#p0021#claim-1d64a653b167eb25",
+        "stories:Stories/full-3.7/walking-with-the-master.md#p0069#claim-953d3ec2a68cfe60"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-005",
+      "explanation": "Both documents articulate the identical concept and terminology: a preṣitamánas occurs when a detached, disembodied mind briefly associates with the ectoplasmic cells of a living person, operating through their nerve cells for approximately two to four minutes before dissolving.",
+      "summary": "A preṣitamánas (recreated mind) is formed when a disembodied mind temporarily utilizes a living person's ectoplasm for a few minutes.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Atman_Paramatman_and_Sadhana.html#p0005#claim-6302ea95bcd6831f",
+        "discourses:Discourses/Chapter_2.html#p0029#claim-4f3d419f9f6f9383",
+        "discourses:Discourses/Dont_Be_Afraid.html#p0003#claim-169924adf5fe2ebb",
+        "discourses:Discourses/The_Singular_Entity.html#p0008#claim-5735c34d18f40adf"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-006",
+      "explanation": "Each of these claims establishes the exact distinction: Puruṣottama / Parama Puruṣa connects to every unit microcosm individually through ota yoga, and to the entire manifested universe in its collective totality through prota yoga.",
+      "summary": "Ota yoga denotes the Supreme Entity's individual association with unit beings, while prota yoga denotes His collective cosmic association.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/AutoSuggestion_and_Outer_Suggestion.html#p0023#claim-6dfca78cffd076dd",
+        "discourses:Discourses/Do_Virtuous_Deeds_Day_and_Night_1.html#p0008#claim-31bfdc0783f1bd66",
+        "discourses:Discourses/Parthasarathi_Krsna_and_Dvaetavada_Discourse_18.html#p0014#claim-9a9192bf3ecfa837",
+        "discourses:Discourses/The_Complications_of_Doing_Evil.html#p0001#claim-46cb3e97132fdbf9"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-007",
+      "explanation": "These claims present the identical ethical taxonomy: performing forbidden actions that harm others constitutes pāpa, whereas failing to perform obligatory righteous duties constitutes pratyavāya, both falling under the broad heading of pātaka.",
+      "summary": "Pātaka is divided into pāpa (sins of commission / prohibited acts) and pratyavāya (sins of omission / neglected duties).",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Kaola_and_Mahakaola.html#p0005#claim-113e502386ccc0e7",
+        "discourses:Discourses/The_Criteria_of_a_Guru.html#p0003#claim-f289c3cf511f9b22",
+        "stories:Stories/full-3.7/baba-in-maharlika.md#p0140#claim-930c77e9036a5f6d",
+        "stories:Stories/full-3.7/living-with-baba-dada-tapeshvarananda.md#p0008#claim-24b8cb3c3fc9e5ce"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-008",
+      "explanation": "These sources across discourses and story records define a Kaola as an aspirant who elevates their own coiled serpentine force, whereas a Mahākaola (such as Lord Shiva or Lord Kṛṣṇa) is a master capable of raising the kuṇḍalinī of others and establishing them in the Macrocosmic stance.",
+      "summary": "A Kaola can raise only their own kuṇḍalinī, whereas a Mahākaola possesses the power to raise the kuṇḍalinī of other aspirants as well.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Moralism.html#p0032#claim-20bce230ef848c8d",
+        "discourses:Discourses/Human_Society_Part_1_Glossary.html#p0009#claim-7b812066e2bd587e",
+        "stories:Stories/full-3.7/the-jamalpur-days.md#p0332#claim-cf4c25701ffcaaa3"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-009",
+      "explanation": "All three citations present the verbatim core definition of 'social progress' and 'society' formulated in P.R. Sarkar's Human Society Part 1, demonstrating consistency across philosophy treatises and biographical historical accounts.",
+      "summary": "Social progress is defined as bridging the gap between moralism and universal humanism, with society being the collective body engaged in that effort.",
+      "type": "supports"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Decentralized_Economy_1.html#p0009#claim-034e46ef93ea9c98",
+        "discourses:Discourses/SocioEconomic_Movements.html#p0007#claim-576c1034f0f916f3"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-010",
+      "explanation": "Both discourses define the fundamental PROUT concept of 'local people' not by ethnicity, mother tongue, or geographical birth origin, but by whether individuals reinvest and merge their economic livelihood within the local socio-economic unit.",
+      "summary": "In PROUT, 'local people' are defined strictly by the merger of individual economic interests with the socio-economic unit, regardless of race, language, or birthplace.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Ekendriya_4.html#p0014#claim-9ebe643cc2f0ae38",
+        "discourses:Discourses/In_Adoration_of_the_Supreme.html#p0005#claim-53c71edfff8cfb22",
+        "discourses:Discourses/Microcosm_and_Its_Object_of_Ideation.html#p0002#claim-940ba6810ef3438a",
+        "discourses:Discourses/Relativity_and_the_Supreme_Entity.html#p0022#claim-81e8ce8a340e65dd",
+        "discourses:Discourses/The_Causal_Matrix_s24.html#p0006#claim-96712e478fe38969"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-011",
+      "explanation": "Across multiple independent discourses, time (kāla / tempus) is consistently defined as a relative factor consisting of the mental measurement/reckoning of the motivity of action, existing only where there is motion and an observer mind.",
+      "summary": "Time is defined as the mental measurement or reckoning of the motivity of action.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Dance_Mudra_and_Tantra.html#p0015#claim-ab4622b360a671cd",
+        "discourses:Discourses/Invention_of_Various_Musical_Instruments.html#p0001#claim-26786456ba10edf6",
+        "discourses:Discourses/Parvatii_Consort_of_Shiva_Section_I.html#p0002#claim-c248012f3da1b46a"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-012",
+      "explanation": "Each of these discourses details the exact etymological and aesthetic origin of tāla (rhythm) as the synthesis of tāṇḍava (tā) and lalita mārmika (la).",
+      "summary": "The musical term tāla is an acronym synthesized from the initial syllable 'tā' of Shiva's tāṇḍava and 'la' of Pārvatī's lalita dance.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Dialectical_Materialism_and_Democracy.html#p0016#claim-84386951deaf3b92",
+        "stories:Stories/full-3.7/bhagavan-anandamurti-narada-muni.md#p0135#claim-c0605486f6b6f689"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-013",
+      "explanation": "Both documents state the identical political requirement: democratic governance remains a tool for exploitation unless a minimum threshold of 51% of the voting electorate is grounded in morality and civic/political education.",
+      "summary": "Democracy cannot succeed unless at least 51 percent of voters strictly possess morality, literacy, and socio-economic-political consciousness.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Chapter_1.html#p0043#claim-679f495cdd81b50b",
+        "discourses:Discourses/The_Grandeur_of_the_Supreme_Entity.html#p0004#claim-8f052913c12dacf1",
+        "discourses:Discourses/The_Supreme_Cognition.html#p0012#claim-cdd1d1d60d21991a",
+        "stories:Stories/full-3.7/the-jamalpur-days.md#p0395#claim-db373227f7de43f1"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-014",
+      "explanation": "These claims establish the cosmological sequence of mind evolution in Ananda Marga philosophy: matter is created by the Macrocosm, and subsequent internal clash and friction within material structures pulverize matter into unit mind-stuff (cittāṇu / ectoplasmic particles).",
+      "summary": "The unit mind (citta / ectoplasm) originates through the physical clash and pulverization of crude matter during pratisaiṋcara.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Devotional_Sentiment_and_Neohumanism_Discourse_1.html#p0021#claim-a806173ec7f42aed",
+        "discourses:Discourses/Light_Comes.html#p0465#claim-7a7e3b439b0f35c6"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-015",
+      "explanation": "Both discourses provide the foundational formulation of Neohumanism: expanding the spirit of humanism beyond intra-human concerns to encompass all flora, fauna, and inanimate structures in the cosmos.",
+      "summary": "Neohumanism is the elevation of humanism to universalism through extending love and devotional sentiment to all animate and inanimate entities.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Cerebral_and_ExtraCerebral_Memory.html#p0007#claim-345a4e6595c5da7e",
+        "discourses:Discourses/ExtraCerebral_Memory.html#p0004#claim-cb74ce073c7629eb",
+        "stories:Stories/full-3.7/living-with-baba-dada-tapeshvarananda.md#p0030#claim-3400daa02c8d04bc",
+        "stories:Stories/full-3.7/the-jamalpur-days.md#p0901#claim-cfc7647e1d0f366d"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-016",
+      "explanation": "These cross-category claims detail the distinction between brain-based memory of the current life and extra-cerebral memory stored in the causal mind that surfaces in young children before new worldly impressions override it.",
+      "summary": "Cerebral memory relies on present nerve cells, whereas extra-cerebral memory is the causal mind's revival of past-life saṁskāras independent of the physical brain.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Blind_Mind_and_Conscience.html#p0006#claim-6976a481343976ca",
+        "discourses:Discourses/Iigal_to_Iiksanaka_Iiksanika_Iiksanika_Discourse_8.html#p0086#claim-87afd14bd2f4c8b2",
+        "discourses:Discourses/Svadharma_and_Paradharma_2.html#p0021#claim-08b50efe70e50355",
+        "discourses:Discourses/The_Significance_of_the_Word_Bhagavan.html#p0015#claim-7992b352606b88fb",
+        "stories:Stories/full-3.7/bhagavan-anandamurti-narada-muni.md#p0009#claim-433ed44e87c8c0a4"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-017",
+      "explanation": "The sixfold attributional definition of 'bhaga' (aeshvarya, vīrya/pratāpa, yashas, shrī, jñāna, and vaerāgya) is consistently presented across scriptural discourses, word surveys, and story records.",
+      "summary": "Bhaga (the attributional root of Bhagavān) is a collection of six divine qualities: aeshvarya, vīrya/pratāpa, yashas, shrī, jñāna, and vaerāgya.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Blind_Mind_and_Conscience.html#p0026#claim-547793782af2efef",
+        "discourses:Discourses/Dharmaksetra_and_Kuruksetra.html#p0012#claim-b81bd3d7a255512e",
+        "discourses:Discourses/The_Biological_Machine.html#p0007#claim-846e67047b47ac59",
+        "discourses:Discourses/The_Field_of_Dharma.html#p0005#claim-921b6959bd318bc1",
+        "discourses:Discourses/Yours_Is_a_NeverEnding_Fight.html#p0013#claim-c9f8ea31810abd4c"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-018",
+      "explanation": "All five discourses share the identical internal esoteric interpretation: King Dhritarashtra is the blind mind, Sanjaya is viveka (conscience), and the one hundred Kauravas are the product of the ten sensory and motor organs acting across ten directions (10 x 10 = 100).",
+      "summary": "Allegorically in the Mahābhārata, Dhritarashtra represents the blind mind whose one hundred sons represent the ten organs operating in ten directions.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Spiritual_Lessons_of_the_Giita_3.html#p0006#claim-d9ef08f9d1ae0f7a",
+        "discourses:Discourses/Yours_Is_a_NeverEnding_Fight.html#p0015#claim-fe08135202f1b917"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-019",
+      "explanation": "Both discourses detail the exact symbolic correspondence of the Pandavas to the elemental factors: Sahadeva (solid/kṣiti), Nakula (liquid/ap), Arjuna (luminous/tejas/energy), Bhima (aerial/vāyu), and Yudhisthira (ethereal/vyoma).",
+      "summary": "The five Pandava brothers correspond allegorically to the five ascending fundamental physical factors (tattvas).",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Adarsha_and_Ista.html#p0010#claim-d33d4fce0e0be3f8",
+        "discourses:Discourses/Bhagavata_Dharma.html#p0004#claim-05c1752fb97f6ac9",
+        "discourses:Discourses/Dharmaksetra_the_Human_Body.html#p0014#claim-902e401cbadd9172",
+        "discourses:Discourses/Plants_Animals_and_Human_Beings.html#p0015#claim-0f32880bfba73ae5",
+        "stories:Stories/full-3.7/glimpses-of-a-mystery.md#p0123#claim-033a4e932980ad05"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-020",
+      "explanation": "These claims across philosophical discourses and personal narratives state the identical fourfold composition of Bhāgavata Dharma that distinguishes human existence from animal life.",
+      "summary": "Bhāgavata Dharma (human dharma) is defined by its four pillars: vistāra (expansion), rasa (flow), sevā (service), and tadsthiti (ensconcement in the Supreme).",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Haras_Seven_Secrets.html#p0007#claim-158bdf81c405ac69",
+        "discourses:Discourses/Shivas_Seven_Secrets.html#p0007#claim-5f57c06cc06047fa",
+        "discourses:Discourses/The_Primary_Causes_of_Success.html#p0005#claim-9a82cc09b577b214"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-021",
+      "explanation": "These texts cite and analyze the identical Sanskrit verse from Shiva Saṁhitā outlining the essential requirements for success in any spiritual or worldly mission.",
+      "summary": "Shiva's seven secrets of success comprise six positive factors (faith, reverence, guru pūjā, equanimity, sense control, balanced diet) with no seventh factor.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Language_and_Dialect_1_Discourse_7.html#p0017#claim-09cf0217746affc5",
+        "discourses:Discourses/The_Language_Issue.html#p0004#claim-c46e6abfe79d5c2b"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-022",
+      "explanation": "Both discourses enumerate the exact eight criteria formulated in PROUT linguistics: vocabulary, pronouns, verb-endings, case-endings, literature, intonation/pronunciation, psycho-acoustic and inferential acoustic notes, and syntax.",
+      "summary": "A linguistic system must fulfill eight specific criteria to qualify as a full-fledged language rather than a dialect.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/QuadriDimensional_Economy.html#p0001#claim-38a4d9ebc5e09ad2",
+        "stories:Stories/full-3.7/my-master-the-supreme-guide.md#p0317#claim-665727f76c6b64a8"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-023",
+      "explanation": "Both documents state the identical four-part economic categorization established in PROUT economic philosophy.",
+      "summary": "PROUT's quadri-dimensional economy comprises people's economy, psycho-economy, commercial economy, and general economy.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Questions_and_Answers_2.html#p0022#claim-89e7747292e32f2a",
+        "stories:Stories/full-3.7/my-master-the-supreme-guide.md#p0338#claim-e6069cc527483ebf"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-024",
+      "explanation": "Both claims argue that per capita income mathematically conceals wealth disparity, whereas guaranteed and increasing purchasing power is the true gauge of economic health.",
+      "summary": "Purchasing capacity is the only scientific measure of economic standard, rendering per capita income a misleading index.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Microvita_and_Its_Possible_Effects_on_Society_Section_A.html#p0003#claim-63a97b0c27690fbb",
+        "discourses:Discourses/The_NeoEthics_of_MultiLateral_Salvation.html#p0003#claim-20d2996a140474d0",
+        "stories:Stories/full-3.7/shraddhainjali.md#p0128#claim-3ad7eb819ab8169c"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-025",
+      "explanation": "These claims from philosophy discourses and memorial collections present the identical microvital cosmology: atomic structure and carbon atoms are formed by the solidification of billions of microvita.",
+      "summary": "Atoms and carbon molecules are not the ultimate rudimental factors of life, but solidified aggregates of billions of microvita.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Light_Comes.html#p0504#claim-b35d779b0f625e14",
+        "discourses:Discourses/PseudoHumanism_Discourse_8.html#p0020#claim-679e04031a593bd8",
+        "stories:Stories/full-3.7/namami-kalyanasundaram-part-ii.md#p0145#claim-a12aa0f21afab68e"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-026",
+      "explanation": "These texts across discourses and story collections express the foundational Neohumanist axiological distinction between utility value and existential value.",
+      "summary": "Every entity possesses both utility value and existential value, and lack of human utility does not deny any creature's right to live.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Scriptological_and_Linguistic_Survey_of_the_World.html#p0013#claim-b604545b2c72ffc6",
+        "discourses:Discourses/Phonetics_1_Discourse_1.html#p0007#claim-8652545a008f5a7c",
+        "discourses:Discourses/The_Evolution_of_Indian_Languages.html#p0009#claim-8158a8c058c6ec8a"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-027",
+      "explanation": "All three claims specify the exact historical-linguistic life cycles of languages (~1,000 years) and scripts (~2,000 years).",
+      "summary": "Languages have an average life span of roughly 1,000 years, whereas scripts endure for approximately 2,000 years before undergoing metamorphosis.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Guide_to_Human_Conduct.html#p0037#claim-da7986c381d658f4",
+        "discourses:Discourses/Rk_to_Rksa_Discourse_11.html#p0057#claim-98d51c17397f3d70"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-028",
+      "explanation": "Both discourses draw the identical philosophical distinction between rta (factual reality) and satya (action/thought directed to all-round welfare).",
+      "summary": "Rta denotes stating factual truth, whereas satya specifically denotes thought and speech applied for the benevolent welfare of living beings.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Guide_to_Human_Conduct.html#p0054#claim-db831fd0011cbabc",
+        "discourses:Discourses/PsychoSpiritual_Parallelism.html#p0006#claim-b74897dd39810805",
+        "discourses:Discourses/Why_Are_People_Afraid_of_Intuitional_Practice.html#p0007#claim-70ff28c5ed05c7f8"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-029",
+      "explanation": "These claims reject the narrow translation of Brahmacarya as physical celibacy, defining it instead as the continuous psychic ideation of treating all contact entities as manifestations of Cosmic Consciousness.",
+      "summary": "Brahmacarya is the practice of seeing and ideating on all objects as expressions of Brahma, rather than mere physical suppression or celibacy.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Prostitution_Section_A.html#p0001#claim-e7acba7b715bb7e8",
+        "discourses:Discourses/The_Vaeshya_Age.html#p0030#claim-bb08eadf0556b415"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-030",
+      "explanation": "Both claims state that approximately eighty percent of prostitution is rooted in economic injustice created by capitalist exploitation, necessitating socioeconomic restructuring rather than mere moralizing statutes.",
+      "summary": "Prostitution is primarily caused by economic injustice in the vaeshya social order and cannot be eradicated by legislation alone.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Economic_SelfSufficiency_for_Bengal.html#p0067#claim-b14758992553441d",
+        "discourses:Discourses/Integrated_Farming.html#p0041#claim-15d87be614eac3e3",
+        "discourses:Discourses/Water_Conservation.html#p0021#claim-26cf75abf59aa5c2"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-031",
+      "explanation": "These agricultural and environmental discourses warn against subterranean groundwater extraction, showing it depresses the water table and causes desertification, and mandate reliance on surface water harvesting.",
+      "summary": "Deep tube-well irrigation depletes the groundwater table and causes ecological desertification, necessitating surface water harvesting.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Dont_Be_Misguided.html#p0017#claim-6ad3c78d5b494593",
+        "discourses:Discourses/JuneJuly_1970.html#p0018#claim-e53a7af63a3550c3",
+        "discourses:Discourses/Mind_Pranendriya_and_Vrtti.html#p0021#claim-eb0d23cf029567b6",
+        "discourses:Discourses/Sadhana_Abhidhyana_and_Kiirtana.html#p0006#claim-55e5afb00d84b120",
+        "discourses:Discourses/The_Meaning_of_Krsna_in_Raja_Yoga.html#p0008#claim-e945bdc581e3a3b8"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-032",
+      "explanation": "All five discourses demonstrate the exact same formula: 50 propensities × 2 (internal and external) × 10 directions = 1,000 expressions, which are governed by the pineal gland / sahasrāra cakra.",
+      "summary": "The sahasrāra cakra controls one thousand mental expressions derived from fifty basic propensities acting internally and externally across ten directions.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Bhaerava_and_Bhaeravii.html#p0017#claim-356cac9e4396ba15",
+        "discourses:Discourses/Eka_to_Ekaunga_Discourse_12.html#p0022#claim-c8469962656bc579",
+        "discourses:Discourses/UkUk_to_Udha_Discourse_10.html#p0083#claim-797f175e34c2b02c"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-033",
+      "explanation": "These historical-philosophical discourses explain how Shiva introduced formal marriage, fixed paternal responsibilities, and abolished divisive clan gotras by welcoming all into Shivagotra.",
+      "summary": "Lord Shiva introduced formal social marriage and unified diverse gotras into Shivagotra to protect women and establish social responsibility.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Tandava_Dance_What_and_Why.html#p0011#claim-b072fd632a131164",
+        "discourses:Discourses/Tandava_Is_a_Fight.html#p0001#claim-285978d15bd718b4",
+        "stories:Stories/full-3.7/101-baba-stories.md#p0151#claim-0d2333a943f868ab"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-034",
+      "explanation": "The discourses establish the hormonal effects of tāṇḍava and why Kaoshikii was invented as a complementary dance-exercise for women, matching the historical narrative recorded in the stories collection.",
+      "summary": "Tāṇḍava dance secretes male hormones and is prohibited for women, which led to the invention of Kaoshikii as an equivalent psycho-physical dance for women.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Art_and_Science.html#p0021#claim-1b760ed71413830f",
+        "discourses:Discourses/Knowledge_and_Human_Progress.html#p0017#claim-845068edf8f3f581",
+        "discourses:Discourses/Shivas_Teachings_2_continued_Discourse_12.html#p0006#claim-2ef0e54cc57bfac0",
+        "discourses:Discourses/The_Faculty_of_Knowledge_1.html#p0001#claim-dd3a0fe2c989e65a",
+        "stories:Stories/full-3.7/bhagavan-anandamurti-narada-muni.md#p0011#claim-bb47ece3f34a36a9"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-035",
+      "explanation": "Across discourses and story records, the cognitive faculty of knowing is consistently defined as the process wherein external objective vibrations are subjectivized within the mind.",
+      "summary": "Knowledge (jñāna) is defined philosophically as the subjectivization of external objectivity.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Bhavambodhipotam.html#p0004#claim-3248b7676c1b8bc8",
+        "discourses:Discourses/Ideological_Flow_and_the_Eightfold_Path.html#p0022#claim-cf6d173b8f391ef3",
+        "discourses:Discourses/The_Faculty_of_Knowledge_2.html#p0014#claim-9cc3f9956999f57c"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-036",
+      "explanation": "These claims share the identical definition of memory from yoga-tantra epistemology: smṛti is the internal mental re-creation of a previously experienced objective form in the absence of the external object.",
+      "summary": "Memory (smṛti) is defined as the internal re-creation of an object's ectoplasmic form without external assistance.",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Human_Life_and_Its_Goal.html#p0006#claim-a835079ed4bad570",
+        "discourses:Discourses/The_Spirit_of_Yoga.html#p0007#claim-3dd497cb9714a044",
+        "other_spiritual_books:Other-Spiritual-Books/how-to-know-god.md#p0042#claim-db9324e86fcb04b1"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-037",
+      "explanation": "Classical yoga texts (such as Patanjali's commentary in 'How to Know God') define yoga as the control and cessation of thought-waves (cittavṛttinirodha). In contrast, Anandamurti's discourses explicitly reject suppression, defining yoga as the sweet unification and diversion of all propensities toward Cosmic Consciousness.",
+      "summary": "Ananda Marga philosophy defines yoga as positive unitive fusion with Supreme Consciousness and rejects Patanjali's definition of yoga as mental suppression (cittavṛttinirodha).",
+      "type": "contrasts"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/The_Causal_Matrix_s24.html#p0042#claim-1c2e053e28770956",
+        "discourses:Discourses/The_Significance_of_the_Word_Yuga.html#p0005#claim-f7474f9f9f555df9",
+        "discourses:Discourses/The_Three_Vital_Factors.html#p0002#claim-be3840bcd7f204d0",
+        "discourses:Discourses/What_Is_Yoga.html#p0010#claim-f51e59e4203d4766"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-038",
+      "explanation": "All four discourses emphasize the exact linguistic and philosophical distinction: spiritual yoga derives from 'yuñj' (unification/dissolution of separate identity), whereas 'yuj' denotes mere addition without loss of individual identity.",
+      "summary": "Spiritual yoga is derived from the root 'yuñj' (unification where separate identities dissolve, like sugar in water), rather than 'yuj' (mere addition, like sugar and sand).",
+      "type": "conceptual_parallel"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Purely_Personal_Entity.html#p0005#claim-f84aacb31514c4c0",
+        "discourses:Discourses/Permanent_Shelter.html#p0005#claim-4bc26a92258313f9",
+        "discourses:Discourses/The_Devotee_and_the_Object_of_Adoration.html#p0013#claim-b9578fea8d3f938f",
+        "discourses:Discourses/You_Are_Not_Helpless.html#p0005#claim-647a64dcb13e91c2"
+      ],
+      "confidence": "high",
+      "connection_id": "conn-039",
+      "explanation": "These discourses outline the core meditational psychology of Ananda Marga: aspirants must reverse ordinary subject-object perception by ideating that they are the object being witnessed by the Supreme Subject.",
+      "summary": "In spiritual meditation, the devotee is the witnessed object and Parama Puruṣa is the Supreme Subjectivity watching them.",
+      "type": "conceptual_parallel"
+    }
+  ],
+  "generation": {
+    "attempts": 1,
+    "generated_at_utc": "2026-08-19T07:51:14.458993+00:00",
+    "location": "global",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "thinking_level": "LOW",
+    "usage": {
+      "candidates_token_count": 18771,
+      "model_version": "gemini-3.7-flash",
+      "prompt_token_count": 545021,
+      "response_id": "9l-Fau_cLLDr-eQPraHLkQ0",
+      "total_token_count": 563792
+    }
+  },
+  "result_type": "cross-corpus-relationships",
+  "schema_version": "1",
+  "scope": "cross-document-only",
+  "themes": [
+    {
+      "claim_ids": [
+        "discourses:Discourses/A_Devotees_Object_of_Ideation.html#p0014#claim-98326bdfa635d45d",
+        "discourses:Discourses/Atman_Paramatman_and_Sadhana.html#p0019#claim-fa87e0f570a4f4a5",
+        "discourses:Discourses/Kaola_and_Mahakaola.html#p0003#claim-267be1bd843e8def",
+        "discourses:Discourses/Liberation_from_Visnumaya.html#p0010#claim-1928f6a8fd9a6481",
+        "discourses:Discourses/Our_Concept_of_Taraka_Brahma.html#p0001#claim-c624c55e3a37088a",
+        "discourses:Discourses/Struggle_and_Progress.html#p0034#claim-1265139adb338250",
+        "discourses:Discourses/The_Coming_of_Taraka_Brahma.html#p0005#claim-b9d55fa80d93b4d1",
+        "discourses:Discourses/The_Purpose_Behind_the_Advent.html#p0008#claim-6b3ece2201102ee5",
+        "discourses:Discourses/Who_Is_the_Liberating_Entity_of_Human_Society.html#p0009#claim-3d6de4921993c202",
+        "stories:Stories/full-3.7/baba-in-maharlika.md#p0139#claim-5c63b9d347e5f87a",
+        "stories:Stories/full-3.7/baba-the-lord.md#p0359#claim-ec7e338e6d399802",
+        "stories:Stories/full-3.7/sambhavami.md#p0132#claim-1556d1d0cedceb44"
+      ],
+      "label": "Tāraka Brahma and the Liberation of Unit Beings",
+      "summary": "Tāraka Brahma is the tangential point bridging Saguna and Nirguna Brahma, embodying in physical form out of grace to liberate unit beings and lead society out of degeneration.",
+      "theme_id": "theme-001"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Art_and_Science.html#p0021#claim-1b760ed71413830f",
+        "discourses:Discourses/Ekendriya_4.html#p0014#claim-9ebe643cc2f0ae38",
+        "discourses:Discourses/In_Adoration_of_the_Supreme.html#p0005#claim-53c71edfff8cfb22",
+        "discourses:Discourses/Knowledge_and_Human_Progress.html#p0017#claim-845068edf8f3f581",
+        "discourses:Discourses/Microcosm_and_Its_Object_of_Ideation.html#p0002#claim-940ba6810ef3438a",
+        "discourses:Discourses/Relativity_and_the_Supreme_Entity.html#p0022#claim-81e8ce8a340e65dd",
+        "discourses:Discourses/Shivas_Teachings_2_continued_Discourse_12.html#p0006#claim-2ef0e54cc57bfac0",
+        "discourses:Discourses/The_Causal_Matrix_s24.html#p0006#claim-96712e478fe38969",
+        "discourses:Discourses/The_Faculty_of_Knowledge_1.html#p0001#claim-dd3a0fe2c989e65a",
+        "discourses:Discourses/The_Significance_of_the_Word_Bhagavan.html#p0025#claim-bd75f250f8a96a39",
+        "stories:Stories/full-3.7/bhagavan-anandamurti-narada-muni.md#p0011#claim-bb47ece3f34a36a9"
+      ],
+      "label": "The Ontological and Epistemological Definition of Knowledge and Time",
+      "summary": "Knowledge is the mental subjectivization of external objectivity, while time is a relative factor defined as the mental measurement or reckoning of the motivity of action.",
+      "theme_id": "theme-002"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/AutoSuggestion_and_Outer_Suggestion.html#p0023#claim-6dfca78cffd076dd",
+        "discourses:Discourses/Devotion_The_Only_Way_to_Salvation.html#p0010#claim-9251d1352aed992a",
+        "discourses:Discourses/Do_Virtuous_Deeds_Day_and_Night_1.html#p0008#claim-31bfdc0783f1bd66",
+        "discourses:Discourses/Mysticism_and_Spirituality.html#p0023#claim-ebdf0fecafa97ec4",
+        "discourses:Discourses/Parthasarathi_Krsna_and_Dvaetavada_Discourse_18.html#p0014#claim-9a9192bf3ecfa837",
+        "discourses:Discourses/Sin_Crime_and_Law.html#p0001#claim-82656c6af10ad03c",
+        "discourses:Discourses/Tadatmanam_Srjamyaham.html#p0010#claim-5d15a3538ca58970",
+        "discourses:Discourses/Take_Refuge_in_Parama_Purusa_with_Unswerving_Attention.html#p0005#claim-d986f1d48da6d21c",
+        "discourses:Discourses/The_Complications_of_Doing_Evil.html#p0001#claim-46cb3e97132fdbf9",
+        "discourses:Discourses/The_Consequences_of_Free_Will_and_Mind.html#p0002#claim-626b1200333caa9d",
+        "discourses:Discourses/Vaedhii_Bhakti_and_Shuddha_Bhakti.html#p0049#claim-e278bc0cc298ded5",
+        "discourses:Discourses/Vaedhii_Bhakti_and_Shuddha_Bhakti.html#p0051#claim-7d446e1fe831bf9d"
+      ],
+      "label": "The Classification of Sins (Pāpa, Pratyavāya, and Pātaka)",
+      "summary": "Moral infractions are systematically categorized into sins of commission (pāpa) and omission (pratyavāya), with sins of commission further graded into pātaka, atipātaka, and recurrent mahāpātaka.",
+      "theme_id": "theme-003"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Adarsha_and_Ista.html#p0010#claim-d33d4fce0e0be3f8",
+        "discourses:Discourses/Better_to_Die_1.html#p0004#claim-768e3702a3a10e22",
+        "discourses:Discourses/Bhagavata_Dharma.html#p0004#claim-05c1752fb97f6ac9",
+        "discourses:Discourses/Dharmaksetra_the_Human_Body.html#p0014#claim-902e401cbadd9172",
+        "discourses:Discourses/Jaeva_Dharma_and_Bhagavata_Dharma.html#p0050#claim-ecb6ef2a1432ad13",
+        "discourses:Discourses/Let_History_Be_Rewritten.html#p0007#claim-0dd664e72b6a34b2",
+        "discourses:Discourses/Plants_Animals_and_Human_Beings.html#p0015#claim-0f32880bfba73ae5",
+        "discourses:Discourses/Shivas_Teachings_1_continued_Discourse_11.html#p0004#claim-e0d880422fc636d5",
+        "discourses:Discourses/Svabhavika_Dharma_and_Bhagavata_Dharma.html#p0003#claim-c92007509cf45a3e",
+        "discourses:Discourses/The_Requirements_for_Sadhana.html#p0011#claim-b0cba71c53769b02",
+        "discourses:Discourses/The_Secret_of_Dharma_Lies_Hidden_in_the_Mind.html#p0007#claim-876b27aebbd5e7a3",
+        "discourses:Discourses/Vasu_and_Vasudeva.html#p0011#claim-361fd716a8d612ee",
+        "stories:Stories/full-3.7/glimpses-of-a-mystery.md#p0123#claim-033a4e932980ad05"
+      ],
+      "label": "The Four Pillars of Bhāgavata Dharma",
+      "summary": "Bhāgavata Dharma is the essential human dharma distinguishing humans from animals, characterized by vistāra (expansion), rasa (flow/surrender), sevā (service), and tadsthiti (merger into the Supreme).",
+      "theme_id": "theme-004"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Asanas.html#p0002#claim-c20e4b81c893bda1",
+        "discourses:Discourses/Aspects_of_BioPsychology.html#p0036#claim-03985b670b77c998",
+        "discourses:Discourses/BioPsychology.html#p0049#claim-8d594bb9c1f62cdf",
+        "discourses:Discourses/Glands_and_Subglands.html#p0012#claim-248e53c002b1e3be",
+        "discourses:Discourses/Mind_Pranendriya_and_Vrtti.html#p0021#claim-eb0d23cf029567b6",
+        "discourses:Discourses/Plexi_and_Microvita.html#p0004#claim-f623de72017d1f31",
+        "discourses:Discourses/Pranipatena_Pariprashnena_Sevaya_2.html#p0006#claim-a8e3733d976fd1ad",
+        "discourses:Discourses/Sadhana_Abhidhyana_and_Kiirtana.html#p0006#claim-55e5afb00d84b120",
+        "discourses:Discourses/Tantra_and_Its_Effect_on_Society.html#p0014#claim-bd19bfb2fb0e3470",
+        "discourses:Discourses/The_Meaning_of_Krsna_in_Raja_Yoga.html#p0008#claim-e945bdc581e3a3b8",
+        "discourses:Discourses/The_Mind_Grows_in_Magnitude.html#p0003#claim-17755fdb34b1760d",
+        "discourses:Discourses/What_Is_Yoga.html#p0006#claim-92cdbe6fcd03cf90",
+        "stories:Stories/full-3.7/the-life-teachings-of-shrii-shrii-anandamurti.md#p0321#claim-8a3333691d4fc60f"
+      ],
+      "label": "Bio-Psychology, Cakras, and Glandular Secretions in Sādhanā",
+      "summary": "The fifty basic vrttis expressed across ten directions yield one thousand psychic expressions governed by hormonal secretions from bodily glands, with the sahasrāra/pineal gland acting as the master controller.",
+      "theme_id": "theme-005"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Crude_and_Subtle_Microvita.html#p0003#claim-101cd3a471aa4b4d",
+        "discourses:Discourses/Matter_and_Abstract.html#p0012#claim-4bcd93d803e2e4a2",
+        "discourses:Discourses/Microvita_and_Cosmology.html#p0005#claim-04fd0996370527ce",
+        "discourses:Discourses/Microvita_and_Its_Possible_Effects_on_Society_Section_A.html#p0003#claim-63a97b0c27690fbb",
+        "discourses:Discourses/Microvitum_the_Mysterious_Emanation_of_Cosmic_Factor.html#p0002#claim-b4317c1829e4b995",
+        "discourses:Discourses/Plexi_and_Microvita.html#p0017#claim-b59046f83658506b",
+        "discourses:Discourses/Questions_and_Answers_on_Microvita_Section_A.html#p0015#claim-598f992420a8a255",
+        "discourses:Discourses/Questions_and_Answers_on_Microvita_Section_B.html#p0020#claim-bf727954b6e6a2cc",
+        "discourses:Discourses/Questions_and_Answers_on_Microvita_Section_F.html#p0005#claim-330bb4c701e404ae",
+        "discourses:Discourses/Some_Examples_of_Microvita_in_Daily_Life_Section_A.html#p0002#claim-7d544668c93f4cb9",
+        "discourses:Discourses/Some_Guidelines_for_Commencing_Microvita_Research.html#p0002#claim-8ef8446bfbf31c55",
+        "discourses:Discourses/The_NeoEthics_of_MultiLateral_Salvation.html#p0003#claim-20d2996a140474d0",
+        "stories:Stories/full-3.7/namami-kalyanasundaram-part-ii.md#p0168#claim-f8ba212948dd959d",
+        "stories:Stories/full-3.7/shraddhainjali.md#p0128#claim-734baa49b590f1c6",
+        "stories:Stories/full-3.7/shraddhainjali.md#p0128#claim-3ad7eb819ab8169c"
+      ],
+      "label": "Microvita Theory and the Foundation of Matter and Mind",
+      "summary": "Microvita are subtle emanations of the Cosmic Mind positioned between ectoplasm and electron that form the basis of atomic matter and drive psycho-physical evolution.",
+      "theme_id": "theme-006"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Agrarian_Revolution.html#p0013#claim-5286809a8cf08ad0",
+        "discourses:Discourses/Agrarian_Revolution.html#p0055#claim-911692363e827a3b",
+        "discourses:Discourses/Chapter_5.html#p0033#claim-da4073f2fb895437",
+        "discourses:Discourses/Cooperative_Production_Section_A.html#p0003#claim-f79fcca8addce10a",
+        "discourses:Discourses/Cooperatives.html#p0023#claim-282ed8dfac0d2741",
+        "discourses:Discourses/Decentralized_Economy_1.html#p0008#claim-19f96e696b0618fa",
+        "discourses:Discourses/Decentralized_Economy_2.html#p0004#claim-fb83fdf1e9541171",
+        "discourses:Discourses/Discourses_on_Prout.html#p0037#claim-98115430942bdfe5",
+        "discourses:Discourses/Discourses_on_Prout.html#p0041#claim-d4709bb385cd4c5f",
+        "discourses:Discourses/Economic_Democracy.html#p0016#claim-f28c14e8a707f595",
+        "discourses:Discourses/Economic_Democracy.html#p0024#claim-c23c52425e00e238",
+        "discourses:Discourses/Farmers_Cooperatives.html#p0005#claim-dbd06d6b6c26b192",
+        "discourses:Discourses/Minimum_Requirements_and_Maximum_Amenities.html#p0051#claim-1c9e038020d45fa7",
+        "discourses:Discourses/Principles_of_Balanced_Economy_Section_A.html#p0003#claim-9f7c6d3dedaec79f",
+        "discourses:Discourses/QuadriDimensional_Economy.html#p0005#claim-f078637cbc3ce491",
+        "discourses:Discourses/Questions_and_Answers_4.html#p0003#claim-cc1344cb2b4c18d9",
+        "discourses:Discourses/Some_Specialities_of_Prouts_Economic_System.html#p0014#claim-7e370516a976b94c",
+        "discourses:Discourses/The_Cosmic_Brotherhood.html#p0021#claim-b29292c37c723511",
+        "discourses:Discourses/Various_Occupations.html#p0089#claim-b8514356025e1aa9",
+        "discourses:Discourses/Various_Occupations.html#p0090#claim-24b0c38f19d3fb19",
+        "stories:Stories/full-3.7/the-supreme-friend.md#p0109#claim-6501c620fe06daa2"
+      ],
+      "label": "PROUT's Socio-Economic Model of Decentralization and Cooperatives",
+      "summary": "PROUT establishes decentralized economic democracy, production for consumption via cooperatives, guaranteed minimum requirements through purchasing capacity, and a balanced economic ratio across industrial and agricultural sectors.",
+      "theme_id": "theme-007"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Ekendriya_3.html#p0014#claim-1427602d69ab7072",
+        "discourses:Discourses/Sadhana_s07.html#p0055#claim-e97692a67059d1f6",
+        "discourses:Discourses/The_Four_Stages_of_Human_Progress.html#p0001#claim-e05bdaf91fdc1486",
+        "discourses:Discourses/The_Phases_of_Human_Approach.html#p0009#claim-f9724413f578ce3f",
+        "discourses:Discourses/Vashiikara_1.html#p0010#claim-8f7234fafb614a3d",
+        "discourses:Discourses/Vyatireka_The_Stage_of_Control.html#p0002#claim-84b2728fc6e3d6f3",
+        "discourses:Discourses/Yatamana_Vyatireka_Ekendriya_and_Vashiikara.html#p0001#claim-6d6b89995c9e3949",
+        "stories:Stories/full-3.7/i-meet-my-beloved-dada-dharmavedananda.md#p0350#claim-c325cd01ae594876"
+      ],
+      "label": "The Four Stages of Pratyāhāra (Yatamāna, Vyatireka, Ekendriya, Vashīkāra)",
+      "summary": "The progressive mastery of mental propensities advances through four distinct stages: yatamāna (conscious effort), vyatireka (partial control), ekendriya (single-pointed focus), and vashīkāra (complete psycho-spiritual control).",
+      "theme_id": "theme-008"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Awakened_Conscience_Discourse_9.html#p0030#claim-e177d3ac3b6abfa2",
+        "discourses:Discourses/Bondages_and_Solutions_Discourse_2.html#p0018#claim-dcd0d7acf2e7388c",
+        "discourses:Discourses/Devotional_Sentiment_and_Neohumanism_Discourse_1.html#p0021#claim-a806173ec7f42aed",
+        "discourses:Discourses/Dogma_No_More.html#p0009#claim-a1cb3c8626ed5b6d",
+        "discourses:Discourses/Fight_Against_All_Dogmas_Section_B.html#p0001#claim-81e115a9df62a673",
+        "discourses:Discourses/GeoSentiment_Discourse_3.html#p0018#claim-fbef09193b4a422e",
+        "discourses:Discourses/Inner_Asset.html#p0001#claim-5e2f11ce20d610b6",
+        "discourses:Discourses/Living_Beings_and_Their_Mentality_Discourse_5.html#p0022#claim-bef931d3ea1bf467",
+        "discourses:Discourses/Neohumanism_Is_the_Ultimate_Shelter_Discourse_11.html#p0035#claim-5d139369dee3b00a",
+        "discourses:Discourses/Perfect_Spirituality_and_Neohumanism.html#p0018#claim-e0fd63be2f84cdac",
+        "discourses:Discourses/Prout_and_Neohumanism.html#p0004#claim-30300230a36ac827",
+        "discourses:Discourses/Pseudospirituality_and_Neohumanism.html#p0020#claim-9e1b5f53ca424acc",
+        "discourses:Discourses/The_Status_of_Inanimation_in_the_Philosophy_of_Neohumanism.html#p0001#claim-879708d357b21028",
+        "stories:Stories/full-3.7/baba-in-maharlika.md#p0294#claim-d7748b3aeb678e09",
+        "stories:Stories/full-3.7/baba-s-love-for-south-america.md#p0098#claim-6ca351665e1d7473"
+      ],
+      "label": "Neohumanism and the Fight Against Dogma and Sentiments",
+      "summary": "Neohumanism elevates humanism to universalism by dismantling irrational dogmas, geo-sentiments, and socio-sentiments through rationalistic mentality and sama-samāja tattva.",
+      "theme_id": "theme-009"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Always_Do_the_Kiirtana_of_the_Lord.html#p0005#claim-8316e8d68c459a04",
+        "discourses:Discourses/Hari_Pari_Mandala.html#p0003#claim-1dd04eca3a6a9915",
+        "discourses:Discourses/Kiirtana_Dispels_Calamities.html#p0005#claim-2f9d76ffd3249752",
+        "discourses:Discourses/Opening_Not_Closing_the_Heart_With_Kiirtana.html#p0011#claim-2956133083402d45",
+        "discourses:Discourses/Taking_the_Opposite_Stance_In_Battle.html#p0061#claim-df9df236b943c813",
+        "discourses:Discourses/The_Best_Mental_Engagement.html#p0005#claim-4ebe5b0772b7b53c",
+        "discourses:Discourses/The_Chance_to_Be_One_with_Him.html#p0014#claim-476549ed28041e7e",
+        "discourses:Discourses/The_Source_of_Internal_Stamina.html#p0021#claim-7771c8b6287ce105",
+        "stories:Stories/dada-ik/dada-ik-baba-stories.md#p0096#claim-a40208ccfac65d40"
+      ],
+      "label": "The Dynamics and Mystical Practice of Kiirtana",
+      "summary": "Loud collective chanting of kiirtana focuses the sensory organs, creates a sweet Hariparimaṇḍala, dispels calamities, and prepares the mind for deep meditation.",
+      "theme_id": "theme-010"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Gayattrii_Rhythm_and_the_Gayattrii_Mantra.html#p0020#claim-8b4556c11e02bd51",
+        "discourses:Discourses/His_Reflections_Are_Everywhere.html#p0003#claim-9be983d05740614d",
+        "discourses:Discourses/Krsna_the_Nucleus_of_the_Universe.html#p0006#claim-d6795b198590d352",
+        "discourses:Discourses/PsychoAcoustic_and_Inferential_Acoustic_Notes_Discourse_9.html#p0030#claim-12102fe2db59d1bb",
+        "discourses:Discourses/Song_Dance_and_Instrumental_Music.html#p0010#claim-50a9096515036d74",
+        "discourses:Discourses/Talks_on_Prout.html#p0038#claim-4696481df1fe7e02",
+        "discourses:Discourses/The_Acoustic_Roots_of_the_IndoAryan_Alphabet.html#p0001#claim-9da883fd85535cf5",
+        "discourses:Discourses/The_Glory_of_Pranava.html#p0023#claim-983c042f13dadc94",
+        "discourses:Discourses/The_Supreme_Question_1.html#p0044#claim-2ae83c10c680e5eb",
+        "discourses:Discourses/Vaekharii_Power.html#p0001#claim-891809ea97e7b94c",
+        "discourses:Discourses/Yoga_and_Tantra.html#p0010#claim-66963346a33378d6",
+        "other_spiritual_books:Other-Spiritual-Books/aghora-book-ii-kundalini.md#p0261#claim-fe2f23bfb6ca3600"
+      ],
+      "label": "The Cosmic Evolution of Sound and Language (Acoustic Roots and Stages of Speech)",
+      "summary": "Universal acoustic roots (bīja mantras) correspond to vibrational expressions of the cakras, with human speech evolving sequentially from parā to pashyantī, madhyamā, dyotamānā, and vaekharī.",
+      "theme_id": "theme-011"
+    },
+    {
+      "claim_ids": [
+        "discourses:Discourses/Beyond_Temporary_Experience.html#p0007#claim-14beeba0bd0706b9",
+        "discourses:Discourses/Incantation_and_Human_Progress.html#p0027#claim-108d88e6947389eb",
+        "discourses:Discourses/Mobility_and_Cognitive_Stance.html#p0010#claim-ad418652868d2767",
+        "discourses:Discourses/Rarh_7.html#p0010#claim-c602794c87dabe5d",
+        "discourses:Discourses/Reality_and_Intellectuality.html#p0016#claim-065c94acdbdf8a1c",
+        "discourses:Discourses/The_Essence_of_Spiritual_Progress.html#p0001#claim-a52c0dd180bea89b",
+        "discourses:Discourses/The_Human_Search_for_Real_Progress.html#p0013#claim-3a8ffaab55ca28b9",
+        "discourses:Discourses/The_Philosophical_Interpretation_of_Progress.html#p0006#claim-d1a796f7e77981f4",
+        "discourses:Discourses/The_Stance_of_Salvation_and_How_to_Attain_It.html#p0005#claim-959d23a77bc20895",
+        "discourses:Discourses/What_Is_the_Aim_of_Humanity.html#p0004#claim-098a155b94d132cb",
+        "stories:Stories/full-3.7/baba-s-love-for-south-america.md#p0107#claim-787a59fbbe44c2d2"
+      ],
+      "label": "The Nature of Absolute Salvation Versus Relative Progression",
+      "summary": "Real, permanent progress cannot take place in the relative physical or psychic strata where positive and negative waves neutralize each other, but exists solely in the spiritual attainment of mokṣa.",
+      "theme_id": "theme-012"
+    }
+  ],
+  "validation": {
+    "accepted_connection_count": 39,
+    "accepted_theme_count": 12,
+    "model_connection_count": 40,
+    "model_theme_count": 12,
+    "warnings": [
+      "Connection 14 references an unknown claim"
+    ]
+  }
+}

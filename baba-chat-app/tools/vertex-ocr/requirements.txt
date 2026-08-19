@@ -1,0 +1,5 @@
+# Runtime dependencies for the isolated Vertex OCR worker.
+# Authentication is provided by Application Default Credentials. Do not add API-key SDKs here.
+google-genai>=1.65.0,<2.0.0
+google-auth>=2.35.0
+pypdf>=5.1.0,<6.0.0

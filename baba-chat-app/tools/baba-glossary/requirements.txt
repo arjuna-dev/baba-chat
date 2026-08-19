@@ -1,0 +1,4 @@
+# Optional English frequency baseline for baba-glossary.
+# COCA files are supplied separately because their redistribution terms and
+# download options depend on the specific COCA sample or license.
+wordfreq>=3.1,<4

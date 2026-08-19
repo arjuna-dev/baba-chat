@@ -1,0 +1,48 @@
+{
+  "books": [
+    {
+      "manifest": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/the-life-teachings-of-shrii-shrii-anandamurti.manifest.json",
+      "source_pdf": "The Life & Teachings of Shrii Shrii Anandamurti.pdf",
+      "summary": {
+        "attempted_page_count": 1,
+        "completed_page_count": 1,
+        "failed_page_count": 0,
+        "quality_warning_page_count": 0,
+        "quality_warning_pages": [],
+        "requested_page_count": 1,
+        "total_output_characters": 1781,
+        "total_rendered_image_bytes": 114027,
+        "usage": {
+          "candidates_token_count": 556,
+          "prompt_token_count": 2714,
+          "total_token_count": 3270
+        }
+      }
+    }
+  ],
+  "content_identity": {
+    "location": "global",
+    "max_output_tokens": 8192,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "thinking_level": "LOW"
+  },
+  "dry_run": false,
+  "failures": [],
+  "input": "/Users/alejandrocamus/Documents/dev/BABA-chat/Baba-Story-Books/The Life & Teachings of Shrii Shrii Anandamurti.pdf",
+  "location": "global",
+  "manifest_version": 2,
+  "media_resolution": "ULTRA_HIGH",
+  "model": "gemini-3.7-flash",
+  "output_dir": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7",
+  "page_range": "100",
+  "pipeline_version": "0.2.0",
+  "project": "project-b6f20ad5-4225-410b-8aa",
+  "resume": false,
+  "run_started_at": "2026-08-17T12:57:57Z",
+  "run_updated_at": "2026-08-17T12:58:09Z",
+  "thinking_level": "LOW"
+}

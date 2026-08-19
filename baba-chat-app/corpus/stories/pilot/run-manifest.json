@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "manifest": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot/101-baba-stories.manifest.json",
+      "source_pdf": "101 Baba Stories.pdf",
+      "summary": {
+        "attempted_page_count": 2,
+        "completed_page_count": 2,
+        "failed_page_count": 0,
+        "quality_warning_page_count": 0,
+        "quality_warning_pages": [],
+        "requested_page_count": 2,
+        "total_output_characters": 566,
+        "total_rendered_image_bytes": 371150,
+        "usage": {
+          "candidates_token_count": 150,
+          "prompt_token_count": 4262,
+          "total_token_count": 5247
+        }
+      }
+    }
+  ],
+  "dry_run": false,
+  "failures": [],
+  "input": "/Users/alejandrocamus/Documents/dev/BABA-chat/Baba-Story-Books/101 Baba Stories.pdf",
+  "location": "global",
+  "manifest_version": 1,
+  "model": "gemini-2.5-flash",
+  "output_dir": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot",
+  "page_range": "1-2",
+  "pipeline_version": "0.1.0",
+  "project": "project-b6f20ad5-4225-410b-8aa",
+  "resume": false,
+  "run_started_at": "2026-08-17T09:32:07Z",
+  "run_updated_at": "2026-08-17T09:33:00Z"
+}

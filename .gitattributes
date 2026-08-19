@@ -1,0 +1,2 @@
+/baba-chat-app/corpus/search/baba-search.sqlite3 filter=lfs diff=lfs merge=lfs -text
+/baba-chat-app/corpus/search/glossary-candidates.json filter=lfs diff=lfs merge=lfs -text

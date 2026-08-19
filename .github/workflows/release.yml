@@ -1,0 +1,114 @@
+name: Build and publish desktop release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to build and publish
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build ${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: macos-arm64
+            runner: macos-15
+            target: darwin
+            arch: arm64
+          - name: macos-x64
+            runner: macos-15-intel
+            target: darwin
+            arch: x64
+          - name: windows-x64
+            runner: windows-2025
+            target: win
+            arch: x64
+          - name: linux-x64
+            runner: ubuntu-24.04
+            target: linux
+            arch: x64
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 120
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref }}
+          lfs: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: baba-chat-app/package-lock.json
+
+      - name: Install dependencies
+        working-directory: baba-chat-app
+        run: npm ci --no-audit --no-fund
+
+      - name: Build installer
+        working-directory: baba-chat-app
+        run: npm run build:electron -- --bundler builder --target ${{ matrix.target }} --arch ${{ matrix.arch }}
+
+      - name: Verify installer output
+        shell: bash
+        run: |
+          test -d baba-chat-app/dist/electron/Packaged
+          count=$(find baba-chat-app/dist/electron/Packaged -maxdepth 1 -type f \( -name '*.dmg' -o -name '*.zip' -o -name '*.exe' -o -name '*.AppImage' -o -name '*.deb' \) | wc -l | tr -d ' ')
+          test "$count" -ge 1
+
+      - name: Upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: baba-chat-${{ matrix.name }}
+          path: |
+            baba-chat-app/dist/electron/Packaged/*.dmg
+            baba-chat-app/dist/electron/Packaged/*.zip
+            baba-chat-app/dist/electron/Packaged/*.exe
+            baba-chat-app/dist/electron/Packaged/*.AppImage
+            baba-chat-app/dist/electron/Packaged/*.deb
+          if-no-files-found: error
+          compression-level: 0
+
+  publish:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Download installer artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-assets
+          merge-multiple: true
+
+      - name: Prepare release files
+        shell: bash
+        run: |
+          mkdir -p release-files
+          find release-assets -type f \( -name '*.dmg' -o -name '*.zip' -o -name '*.exe' -o -name '*.AppImage' -o -name '*.deb' \) -exec cp {} release-files/ \;
+          count=$(find release-files -maxdepth 1 -type f | wc -l | tr -d ' ')
+          test "$count" -ge 6
+          sha256sum release-files/* | tee release-files/SHA256SUMS
+
+      - name: Create GitHub Release
+        run: |
+          gh release create "$RELEASE_TAG" release-files/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Baba Chat $RELEASE_TAG" \
+            --generate-notes \
+            --verify-tag

@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/travels-with-the-mystic-master.md",
+    "slug": "travels-with-the-mystic-master",
+    "source_page_count": 514,
+    "source_pdf": "Travels With the Mystic Master.pdf",
+    "source_sha256": "431c7bc7e3a5cc63dd85ef7bd706d3f17dcce54682ed1c3f5d7a21fc1bd38bd2",
+    "title": "Travels With the Mystic Master"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T12:57:29Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 100,
+      "quality": {
+        "character_count": 1799,
+        "control_character_count": 0,
+        "line_count": 9,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 312
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/.ocr/travels-with-the-mystic-master/pages/page-0100.json",
+      "rendered_image_bytes": 318277,
+      "rendered_image_sha256": "5c5de965cf7ee4a91f15f8b1fcd0a852e2faf0ccb0571868a84315f2b0806c12",
+      "response_id": "MAWDatzUCt6hmLAPxrHv8Q4",
+      "retry_count": 0,
+      "started_at": "2026-08-17T12:57:18Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 407,
+        "prompt_token_count": 2661,
+        "total_token_count": 3068
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    100
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v2",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T12:57:18Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T12:57:29Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 1799,
+    "total_rendered_image_bytes": 318277,
+    "usage": {
+      "candidates_token_count": 407,
+      "prompt_token_count": 2661,
+      "total_token_count": 3068
+    }
+  }
+}

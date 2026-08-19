@@ -1,0 +1,64 @@
+{
+  "adaptive_book_workers": false,
+  "book_workers": 1,
+  "books": [
+    {
+      "manifest": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/full-3.7/historias-de-un-maestro-tantrico.manifest.json",
+      "source_pdf": "Historias_de_un_Maestro_Tantrico.pdf",
+      "summary": {
+        "attempted_page_count": 425,
+        "complete": true,
+        "completed_page_count": 421,
+        "failed_page_count": 0,
+        "quality_warning_page_count": 3,
+        "quality_warning_pages": [
+          11,
+          51,
+          259
+        ],
+        "requested_page_count": 425,
+        "skipped_page_count": 4,
+        "skipped_pages": [
+          8,
+          12,
+          52,
+          260
+        ],
+        "total_output_characters": 1187843,
+        "total_rendered_image_bytes": 680183784,
+        "usage": {
+          "candidates_token_count": 284022,
+          "prompt_token_count": 1506080,
+          "total_token_count": 1807512
+        }
+      }
+    }
+  ],
+  "content_identity": {
+    "location": "global",
+    "max_output_tokens": 8192,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "previous_page_context_words": 200,
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v7",
+    "render_dpi": 200,
+    "thinking_level": "LOW"
+  },
+  "dry_run": false,
+  "failures": [],
+  "input": "/Users/alejandrocamus/Documents/dev/BABA-chat/Baba-Story-Books/Historias_de_un_Maestro_Tantrico.pdf",
+  "location": "global",
+  "manifest_version": 3,
+  "media_resolution": "ULTRA_HIGH",
+  "model": "gemini-3.7-flash",
+  "output_dir": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/full-3.7",
+  "page_range": null,
+  "pipeline_version": "0.6.0",
+  "previous_page_context_words": 200,
+  "project": "project-b6f20ad5-4225-410b-8aa",
+  "resume": true,
+  "run_started_at": "2026-08-18T09:40:14Z",
+  "run_updated_at": "2026-08-18T09:40:15Z",
+  "thinking_level": "LOW"
+}

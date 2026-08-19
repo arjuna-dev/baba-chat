@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/historias-de-un-maestro-tantrico.md",
+    "slug": "historias-de-un-maestro-tantrico",
+    "source_page_count": 425,
+    "source_pdf": "Historias_de_un_Maestro_Tantrico.pdf",
+    "source_sha256": "5b44ea12c7ddb614ed5cd5e5ecc82acc88095e4793648f6bc13789961d566c05",
+    "title": "Historias_de_un_Maestro_Tantrico"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T12:56:55Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 50,
+      "quality": {
+        "character_count": 539,
+        "control_character_count": 0,
+        "line_count": 8,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 94
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/.ocr/historias-de-un-maestro-tantrico/pages/page-0050.json",
+      "rendered_image_bytes": 351225,
+      "rendered_image_sha256": "598317dbc6abf4df566a65b4917597983fe2481a350e760308b21bdf2734a053",
+      "response_id": "EgWDavnjLZ6gmPUP4pbBoQ8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T12:56:49Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 134,
+        "prompt_token_count": 2663,
+        "total_token_count": 2797
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    50
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v2",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T12:56:49Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T12:56:55Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 539,
+    "total_rendered_image_bytes": 351225,
+    "usage": {
+      "candidates_token_count": 134,
+      "prompt_token_count": 2663,
+      "total_token_count": 2797
+    }
+  }
+}

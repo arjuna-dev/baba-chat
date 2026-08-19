@@ -1,0 +1,5 @@
+# Optional dependencies for the non-destructive Gemini glossary reviewer.
+# Authentication is provided by Application Default Credentials.
+-r requirements.txt
+google-genai>=1.65.0,<2.0.0
+google-auth>=2.35.0

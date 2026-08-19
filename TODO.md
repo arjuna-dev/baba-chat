@@ -21,4 +21,5 @@ This is the standing content backlog for the Baba Chat project. I will refer bac
 - [x] Implement and run the full corpus connections workflow using Gemini: extract propositions from each book, compare them across the corpus, and store cited connections, contrasts, and possible contradictions for later use by the search agent.
   - [x] Build and run the five-discourse high-precision extraction pilot with a sixth cross-discourse aggregate call.
   - [x] Run the first full-corpus experiment with resumable extraction batches and one global cross-corpus relationship pass.
-  - [ ] Integrate the validated claims and relationship graph into runtime search and the agent prompt.
+  - [x] Integrate the validated claims and relationship graph into runtime search and the agent prompt.
+  - [ ] Evaluate graph retrieval quality and consider a targeted contradiction-only analysis pass.

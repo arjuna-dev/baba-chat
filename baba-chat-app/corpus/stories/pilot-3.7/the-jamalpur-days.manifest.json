@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/the-jamalpur-days.md",
+    "slug": "the-jamalpur-days",
+    "source_page_count": 423,
+    "source_pdf": "The Jamalpur Days.pdf",
+    "source_sha256": "d41decaa9d5300a64d071db0f4be8eacf108ac69d50c5990012ed328b3490126",
+    "title": "The Jamalpur Days"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T12:57:18Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 100,
+      "quality": {
+        "character_count": 2912,
+        "control_character_count": 0,
+        "line_count": 9,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 473
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/.ocr/the-jamalpur-days/pages/page-0100.json",
+      "rendered_image_bytes": 465925,
+      "rendered_image_sha256": "b40c77d1e119e005c3c68c98a9f469067b7929af81a23ef62368f9d7fee9d553",
+      "response_id": "IwWDaryoC56gmPUP4pbBoQ8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T12:57:05Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 575,
+        "prompt_token_count": 2678,
+        "total_token_count": 3253
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    100
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v2",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T12:57:05Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T12:57:18Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 2912,
+    "total_rendered_image_bytes": 465925,
+    "usage": {
+      "candidates_token_count": 575,
+      "prompt_token_count": 2678,
+      "total_token_count": 3253
+    }
+  }
+}

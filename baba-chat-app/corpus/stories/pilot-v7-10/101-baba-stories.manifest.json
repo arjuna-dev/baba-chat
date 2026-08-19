@@ -1,0 +1,373 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/101-baba-stories.md",
+    "slug": "101-baba-stories",
+    "source_page_count": 41,
+    "source_pdf": "101 Baba Stories.pdf",
+    "source_sha256": "950ddec04a6c3901fc9298e93cbd7eca57745a1d4754aedeb2d36691ec402090",
+    "title": "101 Baba Stories"
+  },
+  "manifest_version": 3,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T16:25:31Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 1,
+      "previous_page_context_word_count": 0,
+      "previous_page_context_words": 200,
+      "previous_page_number": null,
+      "quality": {
+        "character_count": 408,
+        "control_character_count": 0,
+        "line_count": 5,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 59
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0001.json",
+      "rendered_image_bytes": 191246,
+      "rendered_image_sha256": "4a5d06a2a1dd40da5955de5741e2eb6c49f2853a51d0fde499c9bcb851090ae2",
+      "response_id": "9zWDapG7PJ6gmPUP4pbBoQ8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:25:05Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 99,
+        "prompt_token_count": 3151,
+        "total_token_count": 3250
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:25:51Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 2,
+      "previous_page_context_word_count": 62,
+      "previous_page_context_words": 200,
+      "previous_page_number": 1,
+      "quality": {
+        "character_count": 45,
+        "control_character_count": 0,
+        "line_count": 3,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 7
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0002.json",
+      "rendered_image_bytes": 179904,
+      "rendered_image_sha256": "3da3af7b4dd9380020af2636add9d8474817a6e922ff9a39ab0fe374b7f59d64",
+      "response_id": "CzaDaozpIZK2mPUPhMDumA8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:25:31Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 19,
+        "prompt_token_count": 3371,
+        "thoughts_token_count": 147,
+        "total_token_count": 3537
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:26:16Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 3,
+      "previous_page_context_word_count": 8,
+      "previous_page_context_words": 200,
+      "previous_page_number": 2,
+      "quality": {
+        "character_count": 399,
+        "control_character_count": 0,
+        "line_count": 7,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 55
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0003.json",
+      "rendered_image_bytes": 98276,
+      "rendered_image_sha256": "ddc6d14596451210f496d4c29d6f1bf37bcbc049615769efa76dfc5d011c4759",
+      "response_id": "HjaDapmxL870mLAPgtjJiQo",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:25:51Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 116,
+        "prompt_token_count": 3293,
+        "thoughts_token_count": 164,
+        "total_token_count": 3573
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:26:35Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 4,
+      "previous_page_context_word_count": 56,
+      "previous_page_context_words": 200,
+      "previous_page_number": 3,
+      "quality": {
+        "character_count": 479,
+        "control_character_count": 0,
+        "line_count": 3,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 79
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0004.json",
+      "rendered_image_bytes": 88906,
+      "rendered_image_sha256": "ecc32798b0ba4e215f2eed0bc382e4b4f62bf032948568999ee3865c42999afe",
+      "response_id": "ODaDap_kB8LdvNkP9MSFkQ8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:26:16Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 95,
+        "prompt_token_count": 3385,
+        "total_token_count": 3480
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:26:54Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 5,
+      "previous_page_context_word_count": 79,
+      "previous_page_context_words": 200,
+      "previous_page_number": 4,
+      "quality": {
+        "character_count": 1427,
+        "control_character_count": 0,
+        "line_count": 6,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 261
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0005.json",
+      "rendered_image_bytes": 224924,
+      "rendered_image_sha256": "03ddd841e92382c3882457baf51698da9b4630f9596143989e288961246a4d41",
+      "response_id": "SjaDaoamMcu4mPUP2ovK2Q4",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:26:35Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 324,
+        "prompt_token_count": 3369,
+        "total_token_count": 3693
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:27:20Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 6,
+      "previous_page_context_word_count": 200,
+      "previous_page_context_words": 200,
+      "previous_page_number": 5,
+      "quality": {
+        "character_count": 1183,
+        "control_character_count": 0,
+        "line_count": 15,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 201
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0006.json",
+      "rendered_image_bytes": 179769,
+      "rendered_image_sha256": "bb200848282e79f78d4ed59568fe7e684596aba58b2287fbaee3be2ef7ed6fc6",
+      "response_id": "XjaDasO_HrK3vdIPpISniQc",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:26:54Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 315,
+        "prompt_token_count": 3520,
+        "total_token_count": 3835
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:27:46Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 7,
+      "previous_page_context_word_count": 200,
+      "previous_page_context_words": 200,
+      "previous_page_number": 6,
+      "quality": {
+        "character_count": 1626,
+        "control_character_count": 0,
+        "line_count": 8,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 312
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0007.json",
+      "rendered_image_bytes": 248636,
+      "rendered_image_sha256": "c99dff75c578964f56a55bf01ea1185ef3ea0983776ff15d70e50fd257587b5e",
+      "response_id": "eTaDarTCKp-xmPUPoKXngAU",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:27:20Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 390,
+        "prompt_token_count": 3548,
+        "total_token_count": 3938
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:28:15Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 8,
+      "previous_page_context_word_count": 200,
+      "previous_page_context_words": 200,
+      "previous_page_number": 7,
+      "quality": {
+        "character_count": 2672,
+        "control_character_count": 0,
+        "line_count": 22,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 494
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0008.json",
+      "rendered_image_bytes": 401840,
+      "rendered_image_sha256": "cc0537572d88f22a9bb0248612491d899cae5b0b8532ecf46fb851a841aad9ff",
+      "response_id": "kjaDarbtPJK2mPUPhMDumA8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:27:46Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 670,
+        "prompt_token_count": 3516,
+        "total_token_count": 4186
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:28:37Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 9,
+      "previous_page_context_word_count": 200,
+      "previous_page_context_words": 200,
+      "previous_page_number": 8,
+      "quality": {
+        "character_count": 2893,
+        "control_character_count": 0,
+        "line_count": 17,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 554
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0009.json",
+      "rendered_image_bytes": 423969,
+      "rendered_image_sha256": "71cd99df18e67c94ecd1811392966de89a65a883d2fc8b1106224f28f79e7e7b",
+      "response_id": "rzaDatjsGMz5mLAPrZC6uQc",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:28:15Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 724,
+        "prompt_token_count": 3536,
+        "total_token_count": 4260
+      }
+    },
+    {
+      "completed_at": "2026-08-17T16:28:59Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 10,
+      "previous_page_context_word_count": 200,
+      "previous_page_context_words": 200,
+      "previous_page_number": 9,
+      "quality": {
+        "character_count": 2856,
+        "control_character_count": 0,
+        "line_count": 20,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 537
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v7-10/.ocr/101-baba-stories/pages/page-0010.json",
+      "rendered_image_bytes": 415367,
+      "rendered_image_sha256": "cc715e73ad27c38129ae8dd3b416618b51882c7be52ce46012e573c7aef7a867",
+      "response_id": "xTaDapa9M5PFmPUPs7LqmAI",
+      "retry_count": 0,
+      "started_at": "2026-08-17T16:28:37Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 740,
+        "prompt_token_count": 3543,
+        "total_token_count": 4283
+      }
+    }
+  ],
+  "pipeline_version": "0.6.0",
+  "requested_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "previous_page_context_words": 200,
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v7",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "previous_page_context_words": 200,
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v7",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T16:25:05Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T16:28:59Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 10,
+    "complete": false,
+    "completed_page_count": 10,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 10,
+    "skipped_page_count": 0,
+    "skipped_pages": [],
+    "total_output_characters": 13988,
+    "total_rendered_image_bytes": 2452837,
+    "usage": {
+      "candidates_token_count": 3492,
+      "prompt_token_count": 34232,
+      "total_token_count": 38035
+    }
+  }
+}

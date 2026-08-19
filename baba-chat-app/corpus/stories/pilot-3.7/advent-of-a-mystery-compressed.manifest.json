@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/advent-of-a-mystery-compressed.md",
+    "slug": "advent-of-a-mystery-compressed",
+    "source_page_count": 518,
+    "source_pdf": "advent_of_a_mystery_compressed.pdf",
+    "source_sha256": "3f4b5789251527e7022836192c49f96e3f9a517aa77ad741b37cd0795daaa253",
+    "title": "advent_of_a_mystery_compressed"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T12:57:05Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 100,
+      "quality": {
+        "character_count": 4317,
+        "control_character_count": 0,
+        "line_count": 10,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 806
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/.ocr/advent-of-a-mystery-compressed/pages/page-0100.json",
+      "rendered_image_bytes": 2302630,
+      "rendered_image_sha256": "ae6c0f5364f5f8336d7515bc57500edc2083b07de57ee77349a1d86f008c65ba",
+      "response_id": "GgWDaparOpK2mPUPhMDumA8",
+      "retry_count": 0,
+      "started_at": "2026-08-17T12:56:55Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 971,
+        "prompt_token_count": 2658,
+        "total_token_count": 3629
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    100
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v2",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T12:56:55Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T12:57:05Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 4317,
+    "total_rendered_image_bytes": 2302630,
+    "usage": {
+      "candidates_token_count": 971,
+      "prompt_token_count": 2658,
+      "total_token_count": 3629
+    }
+  }
+}

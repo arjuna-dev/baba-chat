@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/tantric-women-tell-their-stories.md",
+    "slug": "tantric-women-tell-their-stories",
+    "source_page_count": 321,
+    "source_pdf": "Tantric Women Tell Their Stories.pdf",
+    "source_sha256": "527339239b27de7d0c625b95ad8e109b15cbcdba8ab73fd908455150b83810b2",
+    "title": "Tantric Women Tell Their Stories"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T12:56:48Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 40,
+      "quality": {
+        "character_count": 1675,
+        "control_character_count": 0,
+        "line_count": 33,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 314
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7/.ocr/tantric-women-tell-their-stories/pages/page-0040.json",
+      "rendered_image_bytes": 332917,
+      "rendered_image_sha256": "82e1a93e206ceda70ddc9e655ed9292e2695949143ff5a23ea4f7e6a1e964166",
+      "response_id": "CwWDasyKG8aFz_IPhvTUsAQ",
+      "retry_count": 0,
+      "started_at": "2026-08-17T12:56:24Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 423,
+        "prompt_token_count": 2661,
+        "total_token_count": 3084
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    40
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v2",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v2",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T12:56:24Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T12:56:48Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 1675,
+    "total_rendered_image_bytes": 332917,
+    "usage": {
+      "candidates_token_count": 423,
+      "prompt_token_count": 2661,
+      "total_token_count": 3084
+    }
+  }
+}

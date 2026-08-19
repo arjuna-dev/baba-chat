@@ -1,0 +1,112 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/101-baba-stories.md",
+    "slug": "101-baba-stories",
+    "source_page_count": 41,
+    "source_pdf": "101 Baba Stories.pdf",
+    "source_sha256": "950ddec04a6c3901fc9298e93cbd7eca57745a1d4754aedeb2d36691ec402090",
+    "title": "101 Baba Stories"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T13:09:16Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 1,
+      "quality": {
+        "character_count": 454,
+        "control_character_count": 0,
+        "line_count": 6,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 67
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/.ocr/101-baba-stories/pages/page-0001.json",
+      "rendered_image_bytes": 191246,
+      "rendered_image_sha256": "4a5d06a2a1dd40da5955de5741e2eb6c49f2853a51d0fde499c9bcb851090ae2",
+      "response_id": "-QeDatfnBZmPhcIPh4OGmAk",
+      "retry_count": 0,
+      "started_at": "2026-08-17T13:08:53Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 119,
+        "prompt_token_count": 2869,
+        "total_token_count": 2988
+      }
+    },
+    {
+      "completed_at": "2026-08-17T13:09:40Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 7,
+      "quality": {
+        "character_count": 1629,
+        "control_character_count": 0,
+        "line_count": 9,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 313
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/.ocr/101-baba-stories/pages/page-0007.json",
+      "rendered_image_bytes": 248636,
+      "rendered_image_sha256": "c99dff75c578964f56a55bf01ea1185ef3ea0983776ff15d70e50fd257587b5e",
+      "response_id": "DAiDasWjJae2mPUPqJKc8QI",
+      "retry_count": 0,
+      "started_at": "2026-08-17T13:09:16Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 393,
+        "prompt_token_count": 2869,
+        "total_token_count": 3262
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    1,
+    7
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v3",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v3",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T13:08:53Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T13:09:40Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 2,
+    "completed_page_count": 2,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 2,
+    "total_output_characters": 2083,
+    "total_rendered_image_bytes": 439882,
+    "usage": {
+      "candidates_token_count": 512,
+      "prompt_token_count": 5738,
+      "total_token_count": 6250
+    }
+  }
+}

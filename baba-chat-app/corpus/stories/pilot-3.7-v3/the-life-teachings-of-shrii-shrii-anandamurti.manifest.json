@@ -1,0 +1,84 @@
+{
+  "book": {
+    "markdown_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/the-life-teachings-of-shrii-shrii-anandamurti.md",
+    "slug": "the-life-teachings-of-shrii-shrii-anandamurti",
+    "source_page_count": 273,
+    "source_pdf": "The Life & Teachings of Shrii Shrii Anandamurti.pdf",
+    "source_sha256": "528316ce67b6bf33a4a8514ab5aa983b62a1601a910a2900272b1e5ca2457f8d",
+    "title": "The Life & Teachings of Shrii Shrii Anandamurti"
+  },
+  "manifest_version": 2,
+  "pages": [
+    {
+      "completed_at": "2026-08-17T13:11:20Z",
+      "model_version": "gemini-3.7-flash",
+      "page_number": 100,
+      "quality": {
+        "character_count": 1797,
+        "control_character_count": 0,
+        "line_count": 6,
+        "repeated_line_ratio": 0.0,
+        "replacement_character_count": 0,
+        "status": "ok",
+        "warnings": [],
+        "word_count": 273
+      },
+      "raw_file": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-3.7-v3/.ocr/the-life-teachings-of-shrii-shrii-anandamurti/pages/page-0100.json",
+      "rendered_image_bytes": 114027,
+      "rendered_image_sha256": "a9688dee18b61647cb1aacf8a13fe04e8d5bbd22e5b48d926ff8ec55ce7218f9",
+      "response_id": "bwiDasSCJcz5mLAPrZC6uQc",
+      "retry_count": 0,
+      "started_at": "2026-08-17T13:11:10Z",
+      "status": "complete",
+      "usage": {
+        "candidates_token_count": 539,
+        "prompt_token_count": 2928,
+        "total_token_count": 3467
+      }
+    }
+  ],
+  "pipeline_version": "0.2.0",
+  "requested_pages": [
+    100
+  ],
+  "run": {
+    "content_identity": {
+      "location": "global",
+      "max_output_tokens": 8192,
+      "media_resolution": "ULTRA_HIGH",
+      "model": "gemini-3.7-flash",
+      "project": "project-b6f20ad5-4225-410b-8aa",
+      "prompt_version": "2026-08-17-v3",
+      "render_dpi": 200,
+      "thinking_level": "LOW"
+    },
+    "location": "global",
+    "max_in_flight": 1,
+    "max_retries": 3,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v3",
+    "render_dpi": 200,
+    "resumed": false,
+    "started_at": "2026-08-17T13:11:10Z",
+    "thinking_level": "LOW",
+    "updated_at": "2026-08-17T13:11:20Z",
+    "workers": 1
+  },
+  "summary": {
+    "attempted_page_count": 1,
+    "completed_page_count": 1,
+    "failed_page_count": 0,
+    "quality_warning_page_count": 0,
+    "quality_warning_pages": [],
+    "requested_page_count": 1,
+    "total_output_characters": 1797,
+    "total_rendered_image_bytes": 114027,
+    "usage": {
+      "candidates_token_count": 539,
+      "prompt_token_count": 2928,
+      "total_token_count": 3467
+    }
+  }
+}

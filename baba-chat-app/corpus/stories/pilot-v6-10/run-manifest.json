@@ -1,0 +1,53 @@
+{
+  "books": [
+    {
+      "manifest": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v6-10/101-baba-stories.manifest.json",
+      "source_pdf": "101 Baba Stories.pdf",
+      "summary": {
+        "attempted_page_count": 10,
+        "complete": false,
+        "completed_page_count": 10,
+        "failed_page_count": 0,
+        "quality_warning_page_count": 0,
+        "quality_warning_pages": [],
+        "requested_page_count": 10,
+        "skipped_page_count": 0,
+        "skipped_pages": [],
+        "total_output_characters": 13996,
+        "total_rendered_image_bytes": 2452837,
+        "usage": {
+          "candidates_token_count": 3499,
+          "prompt_token_count": 34014,
+          "total_token_count": 40835
+        }
+      }
+    }
+  ],
+  "content_identity": {
+    "location": "global",
+    "max_output_tokens": 8192,
+    "media_resolution": "ULTRA_HIGH",
+    "model": "gemini-3.7-flash",
+    "previous_page_context_words": 200,
+    "project": "project-b6f20ad5-4225-410b-8aa",
+    "prompt_version": "2026-08-17-v6",
+    "render_dpi": 200,
+    "thinking_level": "LOW"
+  },
+  "dry_run": false,
+  "failures": [],
+  "input": "/Users/alejandrocamus/Documents/dev/BABA-chat/Baba-Story-Books/101 Baba Stories.pdf",
+  "location": "global",
+  "manifest_version": 3,
+  "media_resolution": "ULTRA_HIGH",
+  "model": "gemini-3.7-flash",
+  "output_dir": "/Users/alejandrocamus/Documents/dev/BABA-chat/baba-chat-app/corpus/stories/pilot-v6-10",
+  "page_range": "1-10",
+  "pipeline_version": "0.5.0",
+  "previous_page_context_words": 200,
+  "project": "project-b6f20ad5-4225-410b-8aa",
+  "resume": true,
+  "run_started_at": "2026-08-17T14:47:35Z",
+  "run_updated_at": "2026-08-17T14:47:35Z",
+  "thinking_level": "LOW"
+}
