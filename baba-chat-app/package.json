@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Local discourse and Baba story research powered by Codex",
   "productName": "Baba Chat",
+  "desktopName": "Baba Chat",
+  "homepage": "https://github.com/arjuna-dev/baba-chat",
   "author": "arjun-dev <arjuna1@protonmail.com>",
   "type": "module",
   "private": true,
