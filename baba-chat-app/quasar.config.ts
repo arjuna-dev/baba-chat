@@ -211,6 +211,11 @@ export default defineConfig((/* ctx */) => {
         artifactName: '${productName}-${version}-${os}-${arch}.${ext}',
         asar: true,
         asarUnpack: ['**/*.node'],
+          linux: {
+            category: 'Utility',
+            syncDesktopName: true,
+            target: ['AppImage', 'deb'],
+          },
         extraResources: [
           {
             from: path.join(appRoot, 'tools'),

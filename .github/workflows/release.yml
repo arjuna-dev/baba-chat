@@ -10,6 +10,11 @@ on:
         description: Existing version tag to build and publish
         required: true
         type: string
+      ref:
+        description: Git ref containing the release source and workflow fix
+        required: true
+        default: master
+        type: string
 
 permissions:
   contents: write
@@ -43,7 +48,7 @@ jobs:
       - name: Check out release source
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.ref || github.ref }}
           lfs: true
 
       - name: Set up Node.js
@@ -59,7 +64,7 @@ jobs:
 
       - name: Build installer
         working-directory: baba-chat-app
-        run: npm run build:electron -- --bundler builder --target ${{ matrix.target }} --arch ${{ matrix.arch }}
+        run: npm run build:electron -- --bundler builder --target ${{ matrix.target }} --arch ${{ matrix.arch }} --publish never
 
       - name: Verify installer output
         shell: bash
