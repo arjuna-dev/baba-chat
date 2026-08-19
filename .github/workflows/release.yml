@@ -108,12 +108,23 @@ jobs:
           find release-assets -type f \( -name '*.dmg' -o -name '*.zip' -o -name '*.exe' -o -name '*.AppImage' -o -name '*.deb' \) -exec cp {} release-files/ \;
           count=$(find release-files -maxdepth 1 -type f | wc -l | tr -d ' ')
           test "$count" -ge 6
-          sha256sum release-files/* | tee release-files/SHA256SUMS
+          (
+            cd release-files
+            for asset in *; do
+              sha256sum "$asset"
+            done
+          ) | tee release-files/SHA256SUMS
 
       - name: Create GitHub Release
         run: |
-          gh release create "$RELEASE_TAG" release-files/* \
-            --repo "$GITHUB_REPOSITORY" \
-            --title "Baba Chat $RELEASE_TAG" \
-            --generate-notes \
-            --verify-tag
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" release-files/* \
+              --repo "$GITHUB_REPOSITORY" \
+              --clobber
+          else
+            gh release create "$RELEASE_TAG" release-files/* \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "Baba Chat $RELEASE_TAG" \
+              --generate-notes \
+              --verify-tag
+          fi

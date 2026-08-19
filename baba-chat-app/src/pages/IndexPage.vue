@@ -500,11 +500,13 @@
               <label class="label" for="hybrid-api-key-settings">API key</label>
               <input
                 id="hybrid-api-key-settings"
-                v-model="hybridApiKeyDraft"
+                :value="hybridApiKeyDraft || (hybridConfigured ? hybridApiKeyMask : '')"
                 class="text-control"
                 type="password"
                 autocomplete="new-password"
                 placeholder="Paste a provider API key"
+                @focus="selectHybridApiKeyCue"
+                @input="handleHybridApiKeyInput"
               />
               <p class="settings-help">
                 Stored in the operating system secure storage. Codex never receives this key.
@@ -528,42 +530,44 @@
               <p v-else class="settings-status">API key not configured</p>
             </div>
           </div>
-          <div class="settings-field">
-            <label class="label" for="model-select-settings">Model</label>
-            <select
-              id="model-select-settings"
-              v-model="selectedModel"
-              class="select-control"
-              :disabled="modelsLoading || modelOptions.length === 0"
-            >
-              <option v-if="modelsLoading" value="">Loading models...</option>
-              <option v-else-if="modelOptions.length === 0" value="">Default model</option>
-              <option v-for="model in modelOptions" :key="model.value" :value="model.value">
-                {{ model.label }}
-              </option>
-            </select>
-          </div>
-          <div class="settings-field">
-            <label class="label" for="reasoning-effort-settings">Thinking effort</label>
-            <select
-              id="reasoning-effort-settings"
-              v-model="reasoningEffort"
-              class="select-control"
-              :disabled="modelsLoading || reasoningEffortOptions.length === 0"
-              aria-describedby="reasoning-effort-help"
-            >
-              <option
-                v-for="option in reasoningEffortOptions"
-                :key="option.value"
-                :value="option.value"
+          <template v-if="chatMode === 'codex'">
+            <div class="settings-field">
+              <label class="label" for="model-select-settings">Model</label>
+              <select
+                id="model-select-settings"
+                v-model="selectedModel"
+                class="select-control"
+                :disabled="modelsLoading || modelOptions.length === 0"
               >
-                {{ option.label }}
-              </option>
-            </select>
-            <p id="reasoning-effort-help" class="settings-help">
-              {{ reasoningEffortHelp }}
-            </p>
-          </div>
+                <option v-if="modelsLoading" value="">Loading models...</option>
+                <option v-else-if="modelOptions.length === 0" value="">Default model</option>
+                <option v-for="model in modelOptions" :key="model.value" :value="model.value">
+                  {{ model.label }}
+                </option>
+              </select>
+            </div>
+            <div class="settings-field">
+              <label class="label" for="reasoning-effort-settings">Thinking effort</label>
+              <select
+                id="reasoning-effort-settings"
+                v-model="reasoningEffort"
+                class="select-control"
+                :disabled="modelsLoading || reasoningEffortOptions.length === 0"
+                aria-describedby="reasoning-effort-help"
+              >
+                <option
+                  v-for="option in reasoningEffortOptions"
+                  :key="option.value"
+                  :value="option.value"
+                >
+                  {{ option.label }}
+                </option>
+              </select>
+              <p id="reasoning-effort-help" class="settings-help">
+                {{ reasoningEffortHelp }}
+              </p>
+            </div>
+          </template>
         </div>
 
         <div class="settings-card">
@@ -1296,6 +1300,7 @@ const hybridApiKeyDraft = ref('');
 const hybridConfigured = ref(false);
 const hybridStatusLoading = ref(false);
 const hybridSaving = ref(false);
+const hybridApiKeyMask = '••••••••••••';
 const selectedModel = ref<string>('');
 const reasoningEffort = ref('max');
 const models = ref<JsonRecord[]>([]);
@@ -1719,6 +1724,26 @@ async function loadHybridStatus() {
   } finally {
     hybridStatusLoading.value = false;
   }
+}
+
+function selectHybridApiKeyCue(event: FocusEvent) {
+  const input = event.currentTarget;
+  if (
+    hybridConfigured.value &&
+    !hybridApiKeyDraft.value &&
+    input instanceof HTMLInputElement
+  ) {
+    input.select();
+  }
+}
+
+function handleHybridApiKeyInput(event: Event) {
+  const input = event.target;
+  if (!(input instanceof HTMLInputElement)) {
+    return;
+  }
+
+  hybridApiKeyDraft.value = input.value === hybridApiKeyMask ? '' : input.value;
 }
 
 async function saveHybridApiKey() {
@@ -5012,6 +5037,8 @@ h2 {
 
 .settings-actions {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: flex-start;
 }
 
