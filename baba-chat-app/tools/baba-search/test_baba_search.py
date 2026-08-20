@@ -551,6 +551,49 @@ Published in:<br />
         self.assertEqual(book_filter["result_count"], 1)
         self.assertEqual(book_filter["results"][0]["source"], "discourses")
 
+    def test_document_frequency_is_counted_across_all_passages(self) -> None:
+        frequent_file = self.discourses / "Frequent_Topic.html"
+        frequent_file.write_text(
+            """
+<html><head><title>Frequent Topic</title></head><body>
+<div class="discourse_box_references">Published in:<a href="book.html">Collected Talks</a></div>
+<div class="discourse_title">Frequent Topic</div>
+<!-- block a=1 type=paragraph -->Alpha beta appears together in this indexed passage for the query.<!-- /block -->
+<!-- block a=2 type=paragraph -->Alpha alpha alpha alpha alpha appears repeatedly in this surrounding passage without the second query term.<!-- /block -->
+</body></html>
+""",
+            encoding="utf-8",
+        )
+        sparse_file = self.discourses / "Sparse_Topic.html"
+        sparse_file.write_text(
+            """
+<html><head><title>Sparse Topic</title></head><body>
+<div class="discourse_box_references">Published in:<a href="book.html">Collected Talks</a></div>
+<div class="discourse_title">Sparse Topic</div>
+<!-- block a=1 type=paragraph -->Alpha beta appears together in this indexed passage for the query.<!-- /block -->
+<!-- block a=2 type=paragraph -->This surrounding passage contains unrelated material about a different subject.<!-- /block -->
+</body></html>
+""",
+            encoding="utf-8",
+        )
+        build_index(self.index, self.discourses, self.stories, force_fts5=False)
+
+        payload = search_index(
+            self.index,
+            source="discourses",
+            raw_query='"alpha beta"',
+            limit=5,
+        )
+
+        self.assertEqual(payload["result_count"], 2)
+        self.assertEqual(payload["results"][0]["title"], "Frequent Topic")
+        self.assertGreater(
+            payload["results"][0]["document_match_count"],
+            payload["results"][1]["document_match_count"],
+        )
+        self.assertEqual(payload["results"][0]["match_count"], 2)
+        self.assertEqual(payload["results"][0]["document_phrase_count"], 1)
+
     def test_fts5_and_scan_have_same_ordered_public_results(self) -> None:
         probe = sqlite3.connect(":memory:")
         has_fts5 = fts5_available(probe)

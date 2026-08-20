@@ -75,6 +75,16 @@ STORY_CHUNK_MAX_BLOCKS = 4
 STORY_CHUNK_MAX_CHARACTERS = 2400
 DEFAULT_CONNECTIONS_SOURCE = "all"
 
+# Document-level term frequency is the primary relevance signal. The other
+# weights remain useful for breaking ties between documents with similar
+# corpus-wide frequency.
+DOCUMENT_MATCH_WEIGHT = 1_000_000
+DOCUMENT_PHRASE_WEIGHT = 100_000
+LOCAL_PHRASE_WEIGHT = 10_000
+TITLE_MATCH_WEIGHT = 1_000
+BOOK_MATCH_WEIGHT = 500
+TEXT_MATCH_WEIGHT = 100
+
 TOKEN_RE = re.compile(r"[^\W_]+", re.UNICODE)
 RAW_TOKEN_RE = re.compile(
     r"[^\W_]+(?:[\u0300-\u036f]+[^\W_]+)*", re.UNICODE
@@ -1928,6 +1938,57 @@ def make_snippet(
     return snippet, matched
 
 
+def document_match_counts(
+    conn: sqlite3.Connection,
+    candidate_rows: Sequence[sqlite3.Row],
+    plan: QueryPlan,
+) -> dict[tuple[str, str], tuple[int, int]]:
+    """Count query terms and phrases across each candidate's source document.
+
+    The body text is counted across every indexed passage in the same source
+    file. Titles and book names are intentionally excluded because they are
+    repeated on every passage row and would otherwise be multiplied by the
+    number of passages in the document.
+    """
+
+    document_keys = sorted(
+        {
+            (str(row["source"]), str(row["relative_path"]))
+            for row in candidate_rows
+        }
+    )
+    if not document_keys:
+        return {}
+
+    counts: dict[tuple[str, str], list[int]] = {
+        key: [0, 0] for key in document_keys
+    }
+    # Keep each query below SQLite's usual bound-variable and expression-tree
+    # limits even when a common term produces many candidate documents.
+    for offset in range(0, len(document_keys), 250):
+        batch = document_keys[offset : offset + 250]
+        where_clause = " OR ".join(
+            "(source = ? AND relative_path = ?)" for _ in batch
+        )
+        params: list[str] = [value for key in batch for value in key]
+        rows = conn.execute(
+            "SELECT source, relative_path, normalized_text "
+            "FROM passages WHERE " + where_clause,
+            params,
+        ).fetchall()
+        for row in rows:
+            key = (str(row["source"]), str(row["relative_path"]))
+            spans = token_spans(str(row["normalized_text"]))
+            counts[key][0] += sum(
+                len(term_spans(spans, term)) for term in plan.terms
+            )
+            counts[key][1] += sum(
+                len(phrase_spans(spans, phrase)) for phrase in plan.phrases
+            )
+
+    return {key: (values[0], values[1]) for key, values in counts.items()}
+
+
 def _field_matches(
     normalized_fields: dict[str, str], plan: QueryPlan
 ) -> tuple[dict[str, list[tuple[int, int]]], dict[str, int], int]:
@@ -1972,6 +2033,8 @@ def score_row(
     context: int,
     book_filter: str | None,
     title_filter: str | None,
+    document_match_count: int = 0,
+    document_phrase_count: int = 0,
 ) -> dict[str, object] | None:
     normalized_book_filter = normalize(book_filter) if book_filter else None
     normalized_title_filter = normalize(title_filter) if title_filter else None
@@ -2031,10 +2094,12 @@ def score_row(
     book_matches = field_term_counts["book"]
     text_matches = field_term_counts["text"]
     score = (
-        phrase_count * 100_000
-        + title_matches * 1_000
-        + book_matches * 500
-        + text_matches * 100
+        document_match_count * DOCUMENT_MATCH_WEIGHT
+        + document_phrase_count * DOCUMENT_PHRASE_WEIGHT
+        + phrase_count * LOCAL_PHRASE_WEIGHT
+        + title_matches * TITLE_MATCH_WEIGHT
+        + book_matches * BOOK_MATCH_WEIGHT
+        + text_matches * TEXT_MATCH_WEIGHT
         + total_term_matches
     )
     page = row["page"]
@@ -2056,6 +2121,8 @@ def score_row(
         "matched_in": snippet_field,
         "matched_terms": list(plan.terms),
         "match_count": total_term_matches,
+        "document_match_count": document_match_count,
+        "document_phrase_count": document_phrase_count,
         "phrase_match": bool(plan.phrases),
         "source_path": row["absolute_path"],
         "citation": citation,
@@ -2096,7 +2163,7 @@ def search_index(
             params.append(f"%{normalize(title_filter)}%")
 
         use_fts5 = meta.get("index_mode") == "fts5"
-        candidate_rows: Iterable[sqlite3.Row]
+        candidate_rows: list[sqlite3.Row]
         if use_fts5:
             query = fts_query(plan)
             sql = (
@@ -2125,10 +2192,24 @@ def search_index(
                 params,
             ).fetchall()
 
+        document_counts = document_match_counts(conn, candidate_rows, plan)
+
         results: list[dict[str, object]] = []
         seen: set[tuple[str, str, str, str]] = set()
         for row in candidate_rows:
-            result = score_row(row, plan, context, book_filter, title_filter)
+            document_match_count, document_phrase_count = document_counts.get(
+                (str(row["source"]), str(row["relative_path"])),
+                (0, 0),
+            )
+            result = score_row(
+                row,
+                plan,
+                context,
+                book_filter,
+                title_filter,
+                document_match_count=document_match_count,
+                document_phrase_count=document_phrase_count,
+            )
             if result is None:
                 continue
             dedupe_key = (
@@ -2144,6 +2225,8 @@ def search_index(
 
         results.sort(
             key=lambda item: (
+                -int(item["document_match_count"]),
+                -int(item["document_phrase_count"]),
                 -int(item["score"]),
                 str(item["_sort_path"]),
                 item["_sort_anchor"],
